@@ -1,0 +1,7 @@
+schema: aoa_telegram_seed_manifest_v1
+profile_id: starter-permissioned
+fixtures:
+  - connector/fixtures/telegram/starter_conversation.json
+routes:
+  - telegram:bot_api:channel:@aoa_android_lab
+  - telegram:tdlib_user_session:dm:self

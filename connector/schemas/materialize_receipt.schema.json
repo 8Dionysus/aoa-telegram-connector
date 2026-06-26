@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/aoa-telegram/materialize_receipt.schema.json",
+  "title": "AoA Telegram Materialize Receipt",
+  "type": "object",
+  "required": ["schema", "run_id", "profile_id", "network_touched", "read_only"],
+  "properties": {
+    "schema": { "const": "aoa_telegram_materialize_receipt_v1" },
+    "run_id": { "type": "string" },
+    "profile_id": { "type": "string" },
+    "network_touched": { "const": false },
+    "read_only": { "const": true }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "aoa_telegram_answer_eval_suite_v1",
+  "proof_owner_repo": "aoa-evals",
+  "cases": [
+    {
+      "id": "warning-answer",
+      "query": "vendor_boot bootloop warning",
+      "expect_answer_status": "answered",
+      "expect_warning_status": "warning_supported"
+    },
+    {
+      "id": "missing-answer",
+      "query": "unicorn modem volte",
+      "expect_answer_status": "insufficient_evidence"
+    }
+  ]
+}

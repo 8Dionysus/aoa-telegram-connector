@@ -1,0 +1,10 @@
+{
+  "schema": "aoa_telegram_permission_eval_suite_v1",
+  "proof_owner_repo": "aoa-evals",
+  "cases": [
+    {
+      "id": "bot-api-does-not-see-connected-account-dm",
+      "expect": "tdlib_user_session_doc_count_greater_than_bot_api"
+    }
+  ]
+}

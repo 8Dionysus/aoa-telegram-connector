@@ -1,0 +1,73 @@
+{
+  "schema": "aoa_telegram_fixture_snapshot_v1",
+  "conversations": [
+    {
+      "conversation_id": "tg:channel:aoa-android-lab",
+      "conversation_type": "public_channel",
+      "title": "AoA Android Lab",
+      "source_url": "https://t.me/aoa_android_lab/1001",
+      "scope": "public_channel_allowlist",
+      "allowed_modes": ["bot_api", "tdlib_user_session", "takeout_export"],
+      "privacy_boundary": "public channel messages visible to configured bot or connected account",
+      "messages": [
+        {
+          "message_id": "1001",
+          "source_url": "https://t.me/aoa_android_lab/1001",
+          "author": {"id": "channel:aoa_android_lab", "label": "AoA Android Lab", "kind": "channel"},
+          "posted_at": "2026-06-01T10:00:00Z",
+          "pinned": true,
+          "visible_in_modes": ["bot_api", "tdlib_user_session", "takeout_export"],
+          "text": "Pinned Xiaomi 13T HyperOS note: unlock bootloader, use fastboot, and keep the matching firmware before touching boot.img or vendor_boot.img.",
+          "entities": [
+            {"kind": "device", "value": "Xiaomi 13T"},
+            {"kind": "firmware", "value": "HyperOS"},
+            {"kind": "tool", "value": "fastboot"}
+          ],
+          "attachments_metadata": [
+            {"kind": "document", "file_name": "boot.img", "downloaded": false}
+          ]
+        },
+        {
+          "message_id": "1002",
+          "source_url": "https://t.me/aoa_android_lab/1002",
+          "author": {"id": "user:maintainer", "label": "Maintainer", "kind": "public_user"},
+          "posted_at": "2026-06-02T11:20:00Z",
+          "edited_at": "2026-06-02T12:00:00Z",
+          "reply_to_message_id": "1001",
+          "visible_in_modes": ["bot_api", "tdlib_user_session", "takeout_export"],
+          "text": "Warning: do not flash vendor_boot.img from a different HyperOS build. It can bootloop the Xiaomi 13T. This newer warning supersedes older root snippets.",
+          "entities": [
+            {"kind": "device", "value": "Xiaomi 13T"},
+            {"kind": "file", "value": "vendor_boot.img"},
+            {"kind": "risk", "value": "bootloop"}
+          ]
+        }
+      ]
+    },
+    {
+      "conversation_id": "tg:dm:self-notes",
+      "conversation_type": "private_dm",
+      "title": "Saved Messages",
+      "source_url": "telegram:local:dm:self-notes",
+      "scope": "connected_account_private_messages",
+      "allowed_modes": ["tdlib_user_session", "takeout_export"],
+      "privacy_boundary": "operator-local connected account only",
+      "messages": [
+        {
+          "message_id": "2001",
+          "source_url": "telegram:local:dm:self-notes:2001",
+          "author": {"id": "self", "label": "Connected account", "kind": "current_account"},
+          "posted_at": "2026-06-03T09:00:00Z",
+          "visible_in_modes": ["tdlib_user_session", "takeout_export"],
+          "sensitivity": "private_dm",
+          "text": "Private note: TDLib user-session sees this Xiaomi 13T Magisk boot.img reminder, but Bot API must not collect personal DMs.",
+          "entities": [
+            {"kind": "device", "value": "Xiaomi 13T"},
+            {"kind": "tool", "value": "TDLib"},
+            {"kind": "tool", "value": "Magisk"}
+          ]
+        }
+      ]
+    }
+  ]
+}

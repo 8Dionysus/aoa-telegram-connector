@@ -1,0 +1,13 @@
+schema: aoa_telegram_profile_v1
+profile_id: starter-permissioned
+description: Synthetic Telegram permissioned conversation starter profile.
+default_mode: bot_api
+supported_modes:
+  - bot_api
+  - tdlib_user_session
+  - takeout_export
+allowlists:
+  - telegram:bot_api:channel:@aoa_android_lab
+  - telegram:tdlib_user_session:dm:self
+download_default: disabled
+write_default: disabled

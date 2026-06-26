@@ -1,0 +1,24 @@
+schema: aoa_connector_route_policy_v1
+source_family: telegram
+allowed:
+  - pattern: "telegram:bot_api:channel:*"
+    reason: explicit bot-visible public channel allowlist
+  - pattern: "telegram:bot_api:group:*"
+    reason: explicit bot-visible group allowlist with privacy-mode limits
+  - pattern: "telegram:tdlib_user_session:*"
+    reason: operator-local connected account scope
+  - pattern: "telegram:takeout_export:*"
+    reason: offline connected-account export/import
+forbidden:
+  - pattern: "telegram:bot_api:private_dm:*"
+  - pattern: "telegram:write:*"
+  - pattern: "telegram:download:*"
+  - pattern: "*phone_number*"
+  - pattern: "*two_factor*"
+  - pattern: "*session_secret*"
+  - pattern: "*internal-search*"
+network_default: disabled
+read_only_default: true
+download_default: disabled
+write_default: disabled
+secrets_in_git: forbidden

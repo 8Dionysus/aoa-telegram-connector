@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AoA Telegram normalized message",
+  "type": "object",
+  "required": ["schema", "source", "source_mode", "conversation_id", "message_id", "permission_state", "freshness_state"],
+  "properties": {
+    "schema": {"const": "aoa_telegram_normalized_message_v1"},
+    "source": {"const": "telegram"},
+    "source_mode": {"enum": ["bot_api", "tdlib_user_session", "takeout_export"]},
+    "conversation_id": {"type": "string"},
+    "message_id": {"type": "string"},
+    "text": {"type": "string"},
+    "permission_state": {"type": "object"},
+    "freshness_state": {"type": "object"}
+  }
+}

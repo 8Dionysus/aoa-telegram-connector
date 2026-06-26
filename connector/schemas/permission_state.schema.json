@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AoA permission state",
+  "type": "object",
+  "required": ["status", "mode"],
+  "properties": {
+    "status": {"enum": ["authorized", "insufficient_permission", "redacted"]},
+    "mode": {"type": "string"},
+    "reason": {"type": "string"},
+    "requires_operator_local_session": {"type": "boolean"}
+  }
+}
