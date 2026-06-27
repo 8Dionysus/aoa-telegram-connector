@@ -21,8 +21,12 @@ def test_cli_materialize_build_query_answer_and_eval() -> None:
     graph = _run("build-graph", "--run", "pytest-fixture")
     assert graph["edge_count"] >= 6
     query = _run("query-graph", "vendor_boot bootloop warning", "--run", "pytest-fixture")
+    assert query["network_touched"] is False
+    assert query["read_only"] is True
     assert query["results"]
     answer = _run("answer", "vendor_boot bootloop warning", "--run", "pytest-fixture")
+    assert answer["network_touched"] is False
+    assert answer["read_only"] is True
     assert answer["answer_report"]["answer_status"] == "answered"
     assert _run("eval", "permissions")["status"] == "pass"
     assert _run("eval", "answer-packets")["status"] == "pass"

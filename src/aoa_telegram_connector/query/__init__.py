@@ -68,6 +68,8 @@ def query_keyword_index(index_path: Path, query: str, limit: int = 5) -> dict[st
         "permission_report": {"status": permission_status, "gaps": index.get("permission_gaps", [])},
         "results": results,
         "policy": {"source": "local_message_index", "internal_search_used": False},
+        "network_touched": False,
+        "read_only": True,
     }
 
 
