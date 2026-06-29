@@ -45,6 +45,16 @@ REQUIRED_FILES = [
     "evals/suites/connector-family-claim-runtime.suite.md",
     "evals/suites/starter_claim_conflict_relations.json",
     "evals/suites/starter_claim_answer_packets.json",
+    "kag/AGENTS.md",
+    "kag/README.md",
+    "kag/manifest.json",
+    "kag/nodes/source_home.json",
+    "kag/nodes/storage_boundary.json",
+    "kag/edges/source_routes_to_storage_boundary.json",
+    "kag/indexes/source_inventory.json",
+    "kag/indexes/source_surface_index.json",
+    "kag/projections/source_return.json",
+    "kag/receipts/validation_receipt.json",
     "src/aoa_telegram_connector/cli.py",
 ]
 
@@ -67,6 +77,12 @@ REQUIRED_DIRS = [
     "tests/integration",
     "evals/intake",
     "evals/reports",
+    "kag",
+    "kag/nodes",
+    "kag/edges",
+    "kag/indexes",
+    "kag/projections",
+    "kag/receipts",
 ]
 
 REQUIRED_SCHEMAS = [
@@ -162,7 +178,7 @@ def main() -> int:
             continue
         if rel_parts and rel_parts[0] == ".connector-state":
             continue
-        if path.is_dir() and path.name in FORBIDDEN_HEAVY_ROOTS:
+        if path.is_dir() and path.name in FORBIDDEN_HEAVY_ROOTS and not _is_allowed_kag_provider_dir(rel_parts):
             errors.append(f"forbidden artifact directory exists inside repository: {path.relative_to(repo_root)}")
 
     _check_text(repo_root, errors, warnings)
@@ -182,6 +198,10 @@ def main() -> int:
     }
     print(json.dumps(payload, indent=2, sort_keys=True))
     return 0 if not errors else 1
+
+
+def _is_allowed_kag_provider_dir(rel_parts: tuple[str, ...]) -> bool:
+    return len(rel_parts) == 2 and rel_parts[0] == "kag" and rel_parts[1] == "indexes"
 
 
 def _load_json(path: Path, errors: list[str]) -> None:
