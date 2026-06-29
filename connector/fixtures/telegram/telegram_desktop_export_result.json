@@ -1,0 +1,47 @@
+{
+  "name": "AoA Telegram Pilot Export",
+  "type": "public_channel",
+  "id": 424242,
+  "messages": [
+    {
+      "id": 11,
+      "type": "message",
+      "date": "2026-06-10T10:00:00",
+      "from": "AoA Android Lab",
+      "from_id": "channel424242",
+      "text": "Xiaomi 13T HyperOS pilot note: keep the matching firmware package before using fastboot with boot.img or vendor_boot.img.",
+      "text_entities": [
+        {
+          "type": "plain",
+          "text": "Xiaomi 13T HyperOS pilot note: keep the matching firmware package before using fastboot with boot.img or vendor_boot.img."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "message",
+      "date": "2026-06-10T10:05:00",
+      "edited": "2026-06-10T10:07:00",
+      "from": "Maintainer",
+      "from_id": "user777",
+      "reply_to_message_id": 11,
+      "text": [
+        "Warning: do not flash ",
+        {
+          "type": "bold",
+          "text": "vendor_boot.img"
+        },
+        " from a different HyperOS build. It can bootloop the Xiaomi 13T and supersedes older snippets."
+      ],
+      "text_entities": [
+        {
+          "type": "bold",
+          "text": "vendor_boot.img"
+        }
+      ],
+      "media_type": "sticker",
+      "file": "stickers/warning.webp",
+      "mime_type": "image/webp"
+    }
+  ]
+}

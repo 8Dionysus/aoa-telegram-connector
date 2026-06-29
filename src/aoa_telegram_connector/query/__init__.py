@@ -56,6 +56,9 @@ def query_keyword_index(index_path: Path, query: str, limit: int = 5) -> dict[st
                 "permission_state": doc.get("permission_state"),
                 "freshness_state": doc.get("freshness_state"),
                 "entities": doc.get("entities", []),
+                "attachments_metadata": doc.get("attachments_metadata", []),
+                "media_policy": doc.get("media_policy", {}),
+                "source_receipt": doc.get("source_receipt", {}),
             }
         )
     permission_status = "ok" if results or not index.get("permission_gaps") else "insufficient_permission"

@@ -13,6 +13,8 @@ Git must not store:
 - SQLite databases
 - caches
 - full exports
+- operator-local source registries containing private, paid, or personal source
+  references
 
 ## Environment Roots
 

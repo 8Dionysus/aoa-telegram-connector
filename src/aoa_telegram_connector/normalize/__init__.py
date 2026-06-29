@@ -8,7 +8,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 
 
-SUPPORTED_MODES = {"bot_api", "tdlib_user_session", "takeout_export"}
+SUPPORTED_MODES = {"bot_api", "tdlib_user_session", "mtproto_user_session", "takeout_export"}
 DEFAULT_MODE = "bot_api"
 
 
@@ -37,6 +37,7 @@ def normalize_snapshot(raw_path: Path, _source_url: str, output_dir: Path, mode:
                 "capture_mode": mode,
                 "captured_at": captured_at,
                 "authorization_state": _authorization_state(conversation, mode),
+                "source_metadata": conversation.get("source_metadata", {}),
                 "messages": normalized_messages,
             }
         )
@@ -67,6 +68,8 @@ def _normalize_message(message: dict[str, object], conversation: dict[str, objec
         "text": text,
         "entities": _extract_entities(text, message),
         "attachments_metadata": message.get("attachments_metadata", []),
+        "media_policy": message.get("media_policy", {"include_media": "none", "downloaded": False}),
+        "source_receipt": message.get("source_receipt", {}),
         "permission_state": _permission_state(message, mode),
         "freshness_state": _freshness_state(message),
         "sensitivity": message.get("sensitivity", "public_or_channel_visible"),
@@ -80,7 +83,7 @@ def _authorization_state(conversation: dict[str, object], mode: str) -> dict[str
         "authorized": mode in allowed_modes,
         "scope": conversation.get("scope"),
         "permission_state": "authorized" if mode in allowed_modes else "insufficient_permission",
-        "operator_local": mode in {"tdlib_user_session", "takeout_export"},
+        "operator_local": mode in {"tdlib_user_session", "mtproto_user_session", "takeout_export"},
         "privacy_boundary": conversation.get("privacy_boundary", "explicit_allowlist_required"),
     }
 

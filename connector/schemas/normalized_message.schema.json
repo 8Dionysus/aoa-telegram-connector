@@ -6,7 +6,7 @@
   "properties": {
     "schema": {"const": "aoa_telegram_normalized_message_v1"},
     "source": {"const": "telegram"},
-    "source_mode": {"enum": ["bot_api", "tdlib_user_session", "takeout_export"]},
+    "source_mode": {"enum": ["bot_api", "tdlib_user_session", "mtproto_user_session", "takeout_export"]},
     "conversation_id": {"type": "string"},
     "message_id": {"type": "string"},
     "text": {"type": "string"},

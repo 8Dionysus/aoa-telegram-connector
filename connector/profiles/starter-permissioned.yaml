@@ -5,9 +5,11 @@ default_mode: bot_api
 supported_modes:
   - bot_api
   - tdlib_user_session
+  - mtproto_user_session
   - takeout_export
 allowlists:
   - telegram:bot_api:channel:@aoa_android_lab
   - telegram:tdlib_user_session:dm:self
+  - telegram:mtproto_user_session:channel:@aoa_android_lab
 download_default: disabled
 write_default: disabled

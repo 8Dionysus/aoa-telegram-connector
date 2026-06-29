@@ -7,6 +7,8 @@ allowed:
     reason: explicit bot-visible group allowlist with privacy-mode limits
   - pattern: "telegram:tdlib_user_session:*"
     reason: operator-local connected account scope
+  - pattern: "telegram:mtproto_user_session:*"
+    reason: operator-local connected account API scope, including public, paid_member, private, and saved_messages sources
   - pattern: "telegram:takeout_export:*"
     reason: offline connected-account export/import
 forbidden:

@@ -15,9 +15,15 @@ crawler.
 ## Allowed Modes
 
 - `bot_api`: bot-visible channel/group messages from an explicit allowlist.
+- `mtproto_user_session`: operator-local connected account history for explicit
+  chat/channel allowlists through the Telegram API.
 - `tdlib_user_session`: operator-local connected account mode for chats,
   channels, groups, and private messages the account can legitimately access.
 - `takeout_export`: offline connected-account export/backfill mode.
+- Operator-local source registry entries for public channels/groups,
+  paid_member channels/groups, private chats, and Saved Messages, provided the
+  connected account can legitimately view the source and the operator explicitly
+  selected it.
 - Closed or private groups only when the connected account has legitimate access
   and the operator explicitly configures that scope.
 

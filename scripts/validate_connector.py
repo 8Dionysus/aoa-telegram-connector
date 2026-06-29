@@ -72,6 +72,7 @@ REQUIRED_DIRS = [
     "src/aoa_telegram_connector/query",
     "src/aoa_telegram_connector/evaluation",
     "src/aoa_telegram_connector/storage",
+    "src/aoa_telegram_connector/sources",
     "tests/unit",
     "tests/contract",
     "tests/integration",
@@ -104,6 +105,8 @@ REQUIRED_SCHEMAS = [
     "freshness_report.schema.json",
     "applicability_report.schema.json",
     "warning_report.schema.json",
+    "source_registry.schema.json",
+    "source_sync_plan.schema.json",
 ]
 
 REQUIRED_GITIGNORE = [
@@ -218,11 +221,11 @@ def _check_text(repo_root: Path, errors: list[str], warnings: list[str]) -> None
     runtime_contract = (repo_root / "docs" / "RUNTIME_CONTRACT.md").read_text(encoding="utf-8")
     doctrine = (repo_root / "docs" / "CONNECTOR_FAMILY_CLAIM_CONTRACT.md").read_text(encoding="utf-8")
 
-    for token in ["bot api", "tdlib", "mtproto", "takeout", "account", "private messages", "attachments", "download", "write", "internal search"]:
+    for token in ["bot api", "tdlib", "mtproto", "takeout", "account", "private messages", "paid_member", "saved messages", "attachments", "download", "write", "internal search"]:
         if token not in source_policy.casefold():
             errors.append(f"source policy missing denied token: {token}")
 
-    for token in ["bot_api", "tdlib_user_session", "takeout_export", "private_dm", "download", "write", "internal-search"]:
+    for token in ["bot_api", "tdlib_user_session", "mtproto_user_session", "takeout_export", "private_dm", "paid", "saved_messages", "download", "write", "internal-search"]:
         if token not in route_policy:
             errors.append(f"route allowlist missing denied token: {token}")
 

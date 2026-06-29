@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/aoa-telegram/source_registry.schema.json",
+  "title": "AoA Telegram operator-local source registry",
+  "type": "object",
+  "required": ["schema", "sources"],
+  "properties": {
+    "schema": { "const": "aoa_telegram_source_registry_v1" },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["schema", "source_id", "source_ref", "kind", "access", "route", "conversation_id", "conversation_type", "media_policy"],
+        "properties": {
+          "schema": { "const": "aoa_telegram_source_v1" },
+          "source_id": { "type": "string" },
+          "source_ref": { "type": "string" },
+          "route": { "type": "string" },
+          "kind": {
+            "enum": ["channel", "group", "supergroup", "paid_channel", "paid_group", "private_chat", "saved_messages"]
+          },
+          "access": {
+            "enum": ["public", "paid_member", "private_authorized", "self_saved"]
+          },
+          "conversation_id": { "type": "string" },
+          "conversation_type": { "type": "string" },
+          "tags": { "type": "array", "items": { "type": "string" } },
+          "trust_score": { "type": "number", "minimum": 0, "maximum": 1 },
+          "enabled": { "type": "boolean" },
+          "operator_local": { "const": true },
+          "read_only": { "const": true },
+          "requires_connected_account": { "const": true },
+          "media_policy": {
+            "type": "object",
+            "required": ["include_media", "download_default"],
+            "properties": {
+              "include_media": { "enum": ["none", "thumbnails", "documents", "all"] },
+              "download_default": { "const": "disabled" }
+            },
+            "additionalProperties": true
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

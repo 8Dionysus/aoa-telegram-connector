@@ -5,10 +5,17 @@
   "type": "object",
   "required": ["schema", "run_id", "profile_id", "network_touched", "read_only"],
   "properties": {
-    "schema": { "const": "aoa_telegram_materialize_receipt_v1" },
+    "schema": {
+      "enum": [
+        "aoa_telegram_materialize_receipt_v1",
+        "aoa_telegram_desktop_export_materialize_receipt_v1",
+        "aoa_telegram_mtproto_materialize_receipt_v1",
+        "aoa_telegram_source_sync_receipt_v1"
+      ]
+    },
     "run_id": { "type": "string" },
     "profile_id": { "type": "string" },
-    "network_touched": { "const": false },
+    "network_touched": { "type": "boolean" },
     "read_only": { "const": true }
   },
   "additionalProperties": true

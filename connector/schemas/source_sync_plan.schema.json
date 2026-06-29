@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/aoa-telegram/source_sync_plan.schema.json",
+  "title": "AoA Telegram source sync plan",
+  "type": "object",
+  "required": ["schema", "run_id", "selected_count", "steps", "network_touched", "read_only", "download_touched"],
+  "properties": {
+    "schema": { "const": "aoa_telegram_source_sync_plan_v1" },
+    "run_id": { "type": "string" },
+    "selected_count": { "type": "integer", "minimum": 0 },
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source_id", "source_ref", "kind", "access", "conversation_id", "conversation_type", "include_media", "read_only"],
+        "properties": {
+          "source_id": { "type": "string" },
+          "source_ref": { "type": "string" },
+          "kind": { "type": "string" },
+          "access": { "type": "string" },
+          "conversation_id": { "type": "string" },
+          "conversation_type": { "type": "string" },
+          "include_media": { "enum": ["none", "thumbnails", "documents", "all"] },
+          "read_only": { "const": true },
+          "download_touched": { "const": false }
+        },
+        "additionalProperties": true
+      }
+    },
+    "network_touched": { "const": false },
+    "read_only": { "const": true },
+    "download_touched": { "const": false }
+  },
+  "additionalProperties": true
+}

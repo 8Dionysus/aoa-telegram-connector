@@ -43,6 +43,9 @@ def build_keyword_index(normalized_dir: Path, output_dir: Path, profile_id: str 
                         "permission_state": message.get("permission_state"),
                         "freshness_state": message.get("freshness_state"),
                         "entities": message.get("entities", []),
+                        "attachments_metadata": message.get("attachments_metadata", []),
+                        "media_policy": message.get("media_policy", {}),
+                        "source_receipt": message.get("source_receipt", {}),
                     }
                 )
     inverted: dict[str, list[dict[str, object]]] = defaultdict(list)

@@ -9,7 +9,7 @@
     "conversation_id": {"type": "string"},
     "conversation_type": {"type": "string"},
     "source_url": {"type": ["string", "null"]},
-    "capture_mode": {"enum": ["bot_api", "tdlib_user_session", "takeout_export"]},
+    "capture_mode": {"enum": ["bot_api", "tdlib_user_session", "mtproto_user_session", "takeout_export"]},
     "authorization_state": {"type": "object"},
     "messages": {"type": "array"}
   }
