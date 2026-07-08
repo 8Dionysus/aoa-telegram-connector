@@ -130,6 +130,8 @@ REQUIRED_GITIGNORE = [
     "vectors/",
     "graphs/",
     "exports/full/",
+    "!kag/indexes/",
+    "!kag/indexes/*.json",
     "*.sqlite",
     "*.sqlite3",
     "*.parquet",
@@ -172,7 +174,6 @@ def main() -> int:
     for rel in FORBIDDEN_HEAVY_ROOTS:
         if (repo_root / rel).exists():
             errors.append(f"heavy artifact path exists inside repository: {rel}")
-
     for path in repo_root.rglob("*"):
         if ".git" in path.parts:
             continue
