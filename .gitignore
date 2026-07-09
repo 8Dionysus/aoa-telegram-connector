@@ -20,6 +20,7 @@ vectors/
 graphs/
 exports/full/
 !kag/indexes/
+kag/indexes/*
 !kag/indexes/*.json
 *.sqlite
 *.sqlite3
