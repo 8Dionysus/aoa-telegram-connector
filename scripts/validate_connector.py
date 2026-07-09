@@ -131,6 +131,7 @@ REQUIRED_GITIGNORE = [
     "graphs/",
     "exports/full/",
     "!kag/indexes/",
+    "kag/indexes/*",
     "!kag/indexes/*.json",
     "*.sqlite",
     "*.sqlite3",
@@ -163,7 +164,11 @@ def main() -> int:
         else:
             _load_json(path, errors)
 
-    for path in [*repo_root.glob("connector/fixtures/**/*.json"), *repo_root.glob("evals/suites/**/*.json")]:
+    for path in [
+        *repo_root.glob("connector/fixtures/**/*.json"),
+        *repo_root.glob("evals/suites/**/*.json"),
+        *repo_root.glob("kag/**/*.json"),
+    ]:
         _load_json(path, errors)
 
     gitignore = (repo_root / ".gitignore").read_text(encoding="utf-8") if (repo_root / ".gitignore").exists() else ""
