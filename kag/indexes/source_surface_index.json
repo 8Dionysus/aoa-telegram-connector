@@ -60,7 +60,7 @@
   },
   "index_identity": {
     "artifact_kind": "source_surface_index",
-    "content_digest": "6f105835af90600def214419252d80cd5e261657ba6287aa727092c3e4fc9fb1",
+    "content_digest": "a1e444ecc17e4007ff0f5c70bc2b3088e21e4de9190782da2d227dbb937a1f89",
     "local_id": "index:repo-local:source-surfaces",
     "schema_ref": "aoa-kag:schemas/repo-local-kag-index.schema.json"
   },
@@ -288,7 +288,7 @@
         "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "git_ref": "git-index-source-tree",
         "id": "file:.connector-state/artifacts/.gitkeep:9accf75395",
-        "mime": "application/octet-stream",
+        "mime": "text/plain",
         "path": ".connector-state/artifacts/.gitkeep",
         "repo": "aoa-telegram-connector",
         "size_bytes": 0
@@ -373,7 +373,7 @@
         "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "git_ref": "git-index-source-tree",
         "id": "file:.connector-state/cache/.gitkeep:ffb60a7310",
-        "mime": "application/octet-stream",
+        "mime": "text/plain",
         "path": ".connector-state/cache/.gitkeep",
         "repo": "aoa-telegram-connector",
         "size_bytes": 0
@@ -458,7 +458,7 @@
         "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "git_ref": "git-index-source-tree",
         "id": "file:.connector-state/data/.gitkeep:c10ea2dd50",
-        "mime": "application/octet-stream",
+        "mime": "text/plain",
         "path": ".connector-state/data/.gitkeep",
         "repo": "aoa-telegram-connector",
         "size_bytes": 0
@@ -543,7 +543,7 @@
         "content_hash": "ec7decff6ff0141f64eb23e5d4d1d644822e47f0554e0ec489c3339aaca524cd",
         "git_ref": "git-index-source-tree",
         "id": "file:.env.example:a3046da0d1",
-        "mime": "application/octet-stream",
+        "mime": "text/plain",
         "path": ".env.example",
         "repo": "aoa-telegram-connector",
         "size_bytes": 1064
@@ -627,7 +627,7 @@
         "state": "current"
       },
       "identity": {
-        "content_hash": "2205d984f178b6cf34050e232d662c2c927db8bcd66299725643ed98039f1122",
+        "content_hash": "6f516af9786b5ecd618a671b61226fcde2c974e325be9532bcfd23528cca4a1e",
         "git_ref": "git-index-source-tree",
         "id": "file:.github/workflows/validate.yml:a5c0f08bc4",
         "mime": "application/yaml",
@@ -666,7 +666,7 @@
       },
       "signs": {
         "attestation_ref": "",
-        "digest": "2205d984f178b6cf34050e232d662c2c927db8bcd66299725643ed98039f1122",
+        "digest": "6f516af9786b5ecd618a671b61226fcde2c974e325be9532bcfd23528cca4a1e",
         "signature_ref": "",
         "verification_state": "digest-only"
       },
@@ -719,7 +719,7 @@
         "content_hash": "5001e512cb839470312ef4d0dad131c870fe92fd0bfc34447899d984845e98fc",
         "git_ref": "git-index-source-tree",
         "id": "file:.gitignore:bc37d034ba",
-        "mime": "application/octet-stream",
+        "mime": "text/plain",
         "path": ".gitignore",
         "repo": "aoa-telegram-connector",
         "size_bytes": 998
@@ -6941,7 +6941,7 @@
         "content_hash": "e7178fa139ca7810395f91dff6e2ae9f2564255452ba71d366b2371ee1162100",
         "git_ref": "git-index-source-tree",
         "id": "file:pyproject.toml:50c86b7ed8",
-        "mime": "application/octet-stream",
+        "mime": "application/toml",
         "path": "pyproject.toml",
         "repo": "aoa-telegram-connector",
         "size_bytes": 633
