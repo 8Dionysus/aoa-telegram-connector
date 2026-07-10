@@ -60,7 +60,7 @@
   },
   "index_identity": {
     "artifact_kind": "source_surface_index",
-    "content_digest": "35a3918eb9256c20695245520f36d7f172884705dcad335cf2e7232e155a3659",
+    "content_digest": "6f105835af90600def214419252d80cd5e261657ba6287aa727092c3e4fc9fb1",
     "local_id": "index:repo-local:source-surfaces",
     "schema_ref": "aoa-kag:schemas/repo-local-kag-index.schema.json"
   },
@@ -627,13 +627,13 @@
         "state": "current"
       },
       "identity": {
-        "content_hash": "f72e7fc6d016be4e849d4ce44614b663cbc813ff1143b80b96e5d1a417a63fec",
+        "content_hash": "2205d984f178b6cf34050e232d662c2c927db8bcd66299725643ed98039f1122",
         "git_ref": "git-index-source-tree",
         "id": "file:.github/workflows/validate.yml:a5c0f08bc4",
         "mime": "application/yaml",
         "path": ".github/workflows/validate.yml",
         "repo": "aoa-telegram-connector",
-        "size_bytes": 386
+        "size_bytes": 544
       },
       "mechanics_role": "none",
       "observed_form": "file",
@@ -666,7 +666,7 @@
       },
       "signs": {
         "attestation_ref": "",
-        "digest": "f72e7fc6d016be4e849d4ce44614b663cbc813ff1143b80b96e5d1a417a63fec",
+        "digest": "2205d984f178b6cf34050e232d662c2c927db8bcd66299725643ed98039f1122",
         "signature_ref": "",
         "verification_state": "digest-only"
       },
@@ -716,13 +716,13 @@
         "state": "current"
       },
       "identity": {
-        "content_hash": "f94a4b1676b45782c4e42323ad3c351e5b6ff391108d54d1815dcba9ebca69f4",
+        "content_hash": "5001e512cb839470312ef4d0dad131c870fe92fd0bfc34447899d984845e98fc",
         "git_ref": "git-index-source-tree",
         "id": "file:.gitignore:bc37d034ba",
         "mime": "application/octet-stream",
         "path": ".gitignore",
         "repo": "aoa-telegram-connector",
-        "size_bytes": 984
+        "size_bytes": 998
       },
       "mechanics_role": "none",
       "observed_form": "file",
@@ -755,7 +755,7 @@
       },
       "signs": {
         "attestation_ref": "",
-        "digest": "f94a4b1676b45782c4e42323ad3c351e5b6ff391108d54d1815dcba9ebca69f4",
+        "digest": "5001e512cb839470312ef4d0dad131c870fe92fd0bfc34447899d984845e98fc",
         "signature_ref": "",
         "verification_state": "digest-only"
       },
@@ -7025,13 +7025,13 @@
         "state": "current"
       },
       "identity": {
-        "content_hash": "b12246e88027ec233679eb6a70e0dbc2f2f319e7909e9df754e515e86dcef3a5",
+        "content_hash": "19126537f5e08551af25cc5d22c9d05515a388b0c84ca8375e9115ed90c05ca2",
         "git_ref": "git-index-source-tree",
         "id": "file:scripts/validate_connector.py:de39a47221",
         "mime": "text/x-python",
         "path": "scripts/validate_connector.py",
         "repo": "aoa-telegram-connector",
-        "size_bytes": 10644
+        "size_bytes": 10730
       },
       "mechanics_role": "none",
       "observed_form": "command",
@@ -7064,7 +7064,7 @@
       },
       "signs": {
         "attestation_ref": "",
-        "digest": "b12246e88027ec233679eb6a70e0dbc2f2f319e7909e9df754e515e86dcef3a5",
+        "digest": "19126537f5e08551af25cc5d22c9d05515a388b0c84ca8375e9115ed90c05ca2",
         "signature_ref": "",
         "verification_state": "digest-only"
       },
@@ -8629,13 +8629,13 @@
         "state": "current"
       },
       "identity": {
-        "content_hash": "0297eeb7f488ae7f6b8dc87a3ea8f37b29a8c4084083e1681cc00dc3a32bd912",
+        "content_hash": "d42fe2a912dba8bc6169d18baab315369866c24984494d84a6f1cd818220dcaa",
         "git_ref": "git-index-source-tree",
         "id": "file:tests/contract/test_validator.py:d2f4ffcf08",
         "mime": "text/x-python",
         "path": "tests/contract/test_validator.py",
         "repo": "aoa-telegram-connector",
-        "size_bytes": 325
+        "size_bytes": 1656
       },
       "mechanics_role": "none",
       "observed_form": "command",
@@ -8668,7 +8668,7 @@
       },
       "signs": {
         "attestation_ref": "",
-        "digest": "0297eeb7f488ae7f6b8dc87a3ea8f37b29a8c4084083e1681cc00dc3a32bd912",
+        "digest": "d42fe2a912dba8bc6169d18baab315369866c24984494d84a6f1cd818220dcaa",
         "signature_ref": "",
         "verification_state": "digest-only"
       },
