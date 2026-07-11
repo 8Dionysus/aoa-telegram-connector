@@ -1,0 +1,149 @@
+{
+  "entries": [
+    {
+      "event_kind": "workflow_run",
+      "event_role": "producer",
+      "heading_ref": null,
+      "id": "event:repo:5ec10e13f4c6b87672ac",
+      "observation_state": "declared",
+      "path": ".github/workflows/validate.yml",
+      "source_record_id": "file:.github/workflows/validate.yml:a5c0f08bc4"
+    },
+    {
+      "event_kind": "release_declaration",
+      "event_role": "declaration",
+      "heading_ref": {
+        "anchor": "010",
+        "level": 2,
+        "line": 12,
+        "ref": "CHANGELOG.md#010",
+        "title": "0.1.0"
+      },
+      "id": "event:repo:af61e79d346a68a02141",
+      "observation_state": "declared",
+      "path": "CHANGELOG.md",
+      "source_record_id": "file:changelog.md:06572a96a5"
+    },
+    {
+      "event_kind": "release_lane",
+      "event_role": "declaration",
+      "heading_ref": {
+        "anchor": "unreleased",
+        "level": 2,
+        "line": 3,
+        "ref": "CHANGELOG.md#unreleased",
+        "title": "Unreleased"
+      },
+      "id": "event:repo:5a049e8bf592aac4f3f3",
+      "observation_state": "declared",
+      "path": "CHANGELOG.md",
+      "source_record_id": "file:changelog.md:06572a96a5"
+    },
+    {
+      "event_kind": "decision_record",
+      "event_role": "declaration",
+      "heading_ref": null,
+      "id": "event:repo:b9d90adfcf962a74c772",
+      "observation_state": "declared",
+      "path": "docs/decisions/AOA-TELEGRAM-D-0001-permissioned-conversation-proof.md",
+      "source_record_id": "file:docs/decisions/aoa-telegram-d-0001-permissioned-conversation-proof.md:9c39e7f7c3"
+    },
+    {
+      "event_kind": "validation_receipt",
+      "event_role": "receipt",
+      "heading_ref": null,
+      "id": "event:repo:911a6c3946527bfbd0b6",
+      "observation_state": "observed",
+      "path": "kag/receipts/validation_receipt.json",
+      "source_record_id": "file:kag/receipts/validation_receipt.json:8e616be0cd"
+    },
+    {
+      "event_kind": "validation_run",
+      "event_role": "producer",
+      "heading_ref": null,
+      "id": "event:repo:cb732adc7f210d667a9a",
+      "observation_state": "declared",
+      "path": "scripts/validate_connector.py",
+      "source_record_id": "file:scripts/validate_connector.py:de39a47221"
+    },
+    {
+      "event_kind": "test_run",
+      "event_role": "producer",
+      "heading_ref": null,
+      "id": "event:repo:868c664d12be3a4bcf64",
+      "observation_state": "declared",
+      "path": "tests/contract/test_validator.py",
+      "source_record_id": "file:tests/contract/test_validator.py:d2f4ffcf08"
+    },
+    {
+      "event_kind": "test_run",
+      "event_role": "producer",
+      "heading_ref": null,
+      "id": "event:repo:be29d9627af6618300e8",
+      "observation_state": "declared",
+      "path": "tests/integration/test_cli_eval.py",
+      "source_record_id": "file:tests/integration/test_cli_eval.py:72e7f3ce47"
+    },
+    {
+      "event_kind": "test_run",
+      "event_role": "producer",
+      "heading_ref": null,
+      "id": "event:repo:4a9c0b9a443ee714791d",
+      "observation_state": "declared",
+      "path": "tests/unit/test_graph_answer.py",
+      "source_record_id": "file:tests/unit/test_graph_answer.py:7bd472ece7"
+    },
+    {
+      "event_kind": "test_run",
+      "event_role": "producer",
+      "heading_ref": null,
+      "id": "event:repo:7625e5b67c2dc68de3e7",
+      "observation_state": "declared",
+      "path": "tests/unit/test_parse_normalize_policy.py",
+      "source_record_id": "file:tests/unit/test_parse_normalize_policy.py:4f69da0d97"
+    }
+  ],
+  "index_identity": {
+    "artifact_kind": "repository_event_index",
+    "content_digest": "03666f9b629e9e02d28416f04e83c971de397cfb4fa237cb44aebecea0d05d7b",
+    "index_kind": "event",
+    "local_id": "index:repo-local:events",
+    "schema_ref": "aoa-kag:schemas/repo-local-kag-repository-index.schema.json"
+  },
+  "registry_output": {
+    "consumer": "aoa-kag-mcp",
+    "resource_shape": "repo-local-event-index",
+    "stable_fields": [
+      "id",
+      "event_kind",
+      "event_role",
+      "source_record_id",
+      "path",
+      "heading_ref"
+    ]
+  },
+  "repo": {
+    "git_ref": "git-index-source-tree",
+    "name": "aoa-telegram-connector",
+    "owner_type": "connector",
+    "root": "."
+  },
+  "schema_version": "aoa-repo-local-kag-repository-index-v1",
+  "source_index": {
+    "content_digest": "e20d40bc9e15148a2b7bd2f90186bd7d852a55064df2d2a5bb638c91b9c6134c",
+    "local_id": "index:repo-local:source-surfaces",
+    "path": "kag/indexes/source_surface_index.json"
+  },
+  "summary": {
+    "entry_count": 10,
+    "kind_counts": {
+      "decision_record": 1,
+      "release_declaration": 1,
+      "release_lane": 1,
+      "test_run": 4,
+      "validation_receipt": 1,
+      "validation_run": 1,
+      "workflow_run": 1
+    }
+  }
+}

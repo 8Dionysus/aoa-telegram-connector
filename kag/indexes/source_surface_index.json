@@ -60,7 +60,7 @@
   },
   "index_identity": {
     "artifact_kind": "source_surface_index",
-    "content_digest": "a1e444ecc17e4007ff0f5c70bc2b3088e21e4de9190782da2d227dbb937a1f89",
+    "content_digest": "e20d40bc9e15148a2b7bd2f90186bd7d852a55064df2d2a5bb638c91b9c6134c",
     "local_id": "index:repo-local:source-surfaces",
     "schema_ref": "aoa-kag:schemas/repo-local-kag-index.schema.json"
   },
@@ -627,7 +627,7 @@
         "state": "current"
       },
       "identity": {
-        "content_hash": "6f516af9786b5ecd618a671b61226fcde2c974e325be9532bcfd23528cca4a1e",
+        "content_hash": "0408125f0204477ae37f9e27523102e9849ad4222ce10543d03477f7a6b8fdb0",
         "git_ref": "git-index-source-tree",
         "id": "file:.github/workflows/validate.yml:a5c0f08bc4",
         "mime": "application/yaml",
@@ -666,7 +666,7 @@
       },
       "signs": {
         "attestation_ref": "",
-        "digest": "6f516af9786b5ecd618a671b61226fcde2c974e325be9532bcfd23528cca4a1e",
+        "digest": "0408125f0204477ae37f9e27523102e9849ad4222ce10543d03477f7a6b8fdb0",
         "signature_ref": "",
         "verification_state": "digest-only"
       },
@@ -6206,13 +6206,13 @@
         "state": "current"
       },
       "identity": {
-        "content_hash": "079057743e5e6f3b658d3cde87fb4e3cff72bd9bd129621dafcaa75d93d5a6d9",
+        "content_hash": "0946966582fa19ffa0a919dc38c26cacbf618d0c02c9c4c2a0808707d472f287",
         "git_ref": "git-index-source-tree",
         "id": "file:kag/readme.md:213631cc86",
         "mime": "text/markdown",
         "path": "kag/README.md",
         "repo": "aoa-telegram-connector",
-        "size_bytes": 1173
+        "size_bytes": 1184
       },
       "mechanics_role": "none",
       "observed_form": "file",
@@ -6267,7 +6267,7 @@
       },
       "signs": {
         "attestation_ref": "",
-        "digest": "079057743e5e6f3b658d3cde87fb4e3cff72bd9bd129621dafcaa75d93d5a6d9",
+        "digest": "0946966582fa19ffa0a919dc38c26cacbf618d0c02c9c4c2a0808707d472f287",
         "signature_ref": "",
         "verification_state": "digest-only"
       },
