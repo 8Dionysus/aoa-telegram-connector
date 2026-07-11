@@ -1,0 +1,819 @@
+{
+  "entries": [
+    {
+      "artifact_kind": "document",
+      "content_hash": "86462099d6c331f2f23bd17d1c836a7eb23fa0eb0511eb42ab0dc1080b3e9cbb",
+      "id": "artifact:file:.connector-state/agents.md:c48b09d1eb",
+      "path": ".connector-state/AGENTS.md",
+      "source_record_id": "file:.connector-state/agents.md:c48b09d1eb",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "93d10e2cf51bb7b33364e5c8512b65370721b815736424304b1409c2d111fccc",
+      "id": "artifact:file:.connector-state/readme.md:377f66e180",
+      "path": ".connector-state/README.md",
+      "source_record_id": "file:.connector-state/readme.md:377f66e180",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "directory_marker",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "id": "artifact:file:.connector-state/artifacts/.gitkeep:9accf75395",
+      "path": ".connector-state/artifacts/.gitkeep",
+      "source_record_id": "file:.connector-state/artifacts/.gitkeep:9accf75395",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "directory_marker",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "id": "artifact:file:.connector-state/cache/.gitkeep:ffb60a7310",
+      "path": ".connector-state/cache/.gitkeep",
+      "source_record_id": "file:.connector-state/cache/.gitkeep:ffb60a7310",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "directory_marker",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "id": "artifact:file:.connector-state/data/.gitkeep:c10ea2dd50",
+      "path": ".connector-state/data/.gitkeep",
+      "source_record_id": "file:.connector-state/data/.gitkeep:c10ea2dd50",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "config",
+      "content_hash": "ec7decff6ff0141f64eb23e5d4d1d644822e47f0554e0ec489c3339aaca524cd",
+      "id": "artifact:file:.env.example:a3046da0d1",
+      "path": ".env.example",
+      "source_record_id": "file:.env.example:a3046da0d1",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "config",
+      "content_hash": "0408125f0204477ae37f9e27523102e9849ad4222ce10543d03477f7a6b8fdb0",
+      "id": "artifact:file:.github/workflows/validate.yml:a5c0f08bc4",
+      "path": ".github/workflows/validate.yml",
+      "source_record_id": "file:.github/workflows/validate.yml:a5c0f08bc4",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "owner_metadata",
+      "content_hash": "5001e512cb839470312ef4d0dad131c870fe92fd0bfc34447899d984845e98fc",
+      "id": "artifact:file:.gitignore:bc37d034ba",
+      "path": ".gitignore",
+      "source_record_id": "file:.gitignore:bc37d034ba",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "5c0cfdbbe93e201d43b019e98bd7cf82ef934d00448daa36a7a1813a4bbb11e2",
+      "id": "artifact:file:agents.md:a54ff182c7",
+      "path": "AGENTS.md",
+      "source_record_id": "file:agents.md:a54ff182c7",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "3da9e6d72404c57f3f1cf059151495a069ddc5a5af86564a5008786bf33fa9c2",
+      "id": "artifact:file:boundaries.md:22819d489e",
+      "path": "BOUNDARIES.md",
+      "source_record_id": "file:boundaries.md:22819d489e",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "a61b2978fc11502a314a47807b8b379e1a7180af58ea6823b28598549c82c2e6",
+      "id": "artifact:file:changelog.md:06572a96a5",
+      "path": "CHANGELOG.md",
+      "source_record_id": "file:changelog.md:06572a96a5",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "eb84189d73b2c0ce6f321920831bcfa3ae1bc16a115adcb50a7bb9f989551a71",
+      "id": "artifact:file:charter.md:91d16dd057",
+      "path": "CHARTER.md",
+      "source_record_id": "file:charter.md:91d16dd057",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "b0e44fba8837db46b7027aaf6cde9779336e0225b95d7ca0689ccd763a3bd891",
+      "id": "artifact:file:readme.md:b335630551",
+      "path": "README.md",
+      "source_record_id": "file:readme.md:b335630551",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "ffaee0549c7f1a94264c07782df7707e6f212aebce6a20a0608f2455de0f5f4b",
+      "id": "artifact:file:roadmap.md:683343bdf9",
+      "path": "ROADMAP.md",
+      "source_record_id": "file:roadmap.md:683343bdf9",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "94b4cebe5b3267750a88758b5fc248e0520509605652c0637e7445f8a1cdbebe",
+      "id": "artifact:file:connector/readme.md:5aa00cda8e",
+      "path": "connector/README.md",
+      "source_record_id": "file:connector/readme.md:5aa00cda8e",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "5728a220e11eedc22be60b56c2c254e09fa47955fc955f950965fa738feafe61",
+      "id": "artifact:file:connector/source_policy.md:1ec0689ca4",
+      "path": "connector/SOURCE_POLICY.md",
+      "source_record_id": "file:connector/source_policy.md:1ec0689ca4",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "24576a07fc65bbac5e6e2c66d33ac86a2e31a9326540dec4e7bf4ce9ded800d7",
+      "id": "artifact:file:connector/storage_policy.md:aef066cc09",
+      "path": "connector/STORAGE_POLICY.md",
+      "source_record_id": "file:connector/storage_policy.md:aef066cc09",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "config",
+      "content_hash": "e284d93e9b67ef074e4064dadfd23759ad4bf2596d799e2a08216cf6bd081290",
+      "id": "artifact:file:connector/fixtures/telegram/starter_conversation.json:43cbd90736",
+      "path": "connector/fixtures/telegram/starter_conversation.json",
+      "source_record_id": "file:connector/fixtures/telegram/starter_conversation.json:43cbd90736",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "config",
+      "content_hash": "c2e78baada309195f2066fdc21086ec5eb2deba5d6df53bfb2141d9cdc722bc5",
+      "id": "artifact:file:connector/fixtures/telegram/telegram_desktop_export_result.json:b1769f778e",
+      "path": "connector/fixtures/telegram/telegram_desktop_export_result.json",
+      "source_record_id": "file:connector/fixtures/telegram/telegram_desktop_export_result.json:b1769f778e",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "manifest",
+      "content_hash": "7313a89d6336d84caeb463a504623ed90c43677083d89a55d6a7d5377229fdb1",
+      "id": "artifact:file:connector/manifests/artifact_classes.yaml:702a5cec90",
+      "path": "connector/manifests/artifact_classes.yaml",
+      "source_record_id": "file:connector/manifests/artifact_classes.yaml:702a5cec90",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "manifest",
+      "content_hash": "783134807f3f58cfa16c001ff9139e6b6f29164a973e78b749357d0319bd7ebc",
+      "id": "artifact:file:connector/manifests/connector_manifest.yaml:747276e9b1",
+      "path": "connector/manifests/connector_manifest.yaml",
+      "source_record_id": "file:connector/manifests/connector_manifest.yaml:747276e9b1",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "manifest",
+      "content_hash": "80fd227b18ba53b73057db29a948feb272c2b7b247c6d6c7b403f1affc0b64e8",
+      "id": "artifact:file:connector/manifests/route_allowlist.yaml:1ba98f35b6",
+      "path": "connector/manifests/route_allowlist.yaml",
+      "source_record_id": "file:connector/manifests/route_allowlist.yaml:1ba98f35b6",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "config",
+      "content_hash": "78f4969cb7e6bee9370631ae13573c5ded5d47557a48d83931e14357fc0356ad",
+      "id": "artifact:file:connector/profiles/starter-permissioned.yaml:11321dbd42",
+      "path": "connector/profiles/starter-permissioned.yaml",
+      "source_record_id": "file:connector/profiles/starter-permissioned.yaml:11321dbd42",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "schema",
+      "content_hash": "393451d73758945ce0fb1bd026789f421451fa4370a7cc081d246e44af454aa5",
+      "id": "artifact:file:connector/schemas/answer_packet.schema.json:3886462d56",
+      "path": "connector/schemas/answer_packet.schema.json",
+      "source_record_id": "file:connector/schemas/answer_packet.schema.json:3886462d56",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "schema",
+      "content_hash": "046d3c02fa7c4e573866dfd5e4327f4f084cc8fd4f5204df78e5c5289e15c9dc",
+      "id": "artifact:file:connector/schemas/applicability_report.schema.json:bfec791fa3",
+      "path": "connector/schemas/applicability_report.schema.json",
+      "source_record_id": "file:connector/schemas/applicability_report.schema.json:bfec791fa3",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "schema",
+      "content_hash": "72b49242ef185c6a7cff986383bb9c9357d84d6c62e7a88a3bbfa6661a605bee",
+      "id": "artifact:file:connector/schemas/claim.schema.json:32e75444c5",
+      "path": "connector/schemas/claim.schema.json",
+      "source_record_id": "file:connector/schemas/claim.schema.json:32e75444c5",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "schema",
+      "content_hash": "b9af89273265246634966c2f60505036ab9db2805733fe4e8dbaf74271d5e0bc",
+      "id": "artifact:file:connector/schemas/claim_relation.schema.json:383c535c0b",
+      "path": "connector/schemas/claim_relation.schema.json",
+      "source_record_id": "file:connector/schemas/claim_relation.schema.json:383c535c0b",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "schema",
+      "content_hash": "4a56dba814b5db2bc9182c893ccd0eb45b44b8255e3b73ac8cff47695f99594a",
+      "id": "artifact:file:connector/schemas/conflict_report.schema.json:5a9c8bd05f",
+      "path": "connector/schemas/conflict_report.schema.json",
+      "source_record_id": "file:connector/schemas/conflict_report.schema.json:5a9c8bd05f",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "schema",
+      "content_hash": "767772782ebb93d202ffb150d82d00578e5f561e9cd75b9837817a02be77cf43",
+      "id": "artifact:file:connector/schemas/crawl_receipt.schema.json:b0b5287569",
+      "path": "connector/schemas/crawl_receipt.schema.json",
+      "source_record_id": "file:connector/schemas/crawl_receipt.schema.json:b0b5287569",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "schema",
+      "content_hash": "ac525ffdb6323e2c261a1bfc09d7197860e4d8e108f48875555f03ee1bebe0bd",
+      "id": "artifact:file:connector/schemas/evidence_packet.schema.json:22b1fd4258",
+      "path": "connector/schemas/evidence_packet.schema.json",
+      "source_record_id": "file:connector/schemas/evidence_packet.schema.json:22b1fd4258",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "schema",
+      "content_hash": "8d55c49003264d025a82cd31a0e896a87609c6c236cb96f7712a450892f9ec78",
+      "id": "artifact:file:connector/schemas/freshness_report.schema.json:116037cdf5",
+      "path": "connector/schemas/freshness_report.schema.json",
+      "source_record_id": "file:connector/schemas/freshness_report.schema.json:116037cdf5",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "schema",
+      "content_hash": "33aa8631bd680d6bf4a0f559bbdf4a07d172a63a2d6b49aceaae38980dba5952",
+      "id": "artifact:file:connector/schemas/graph_edge.schema.json:7cdc761c31",
+      "path": "connector/schemas/graph_edge.schema.json",
+      "source_record_id": "file:connector/schemas/graph_edge.schema.json:7cdc761c31",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "schema",
+      "content_hash": "197a3406ef218ac3cf29cb1baa4213272f71e9691ad907a3869b336dd967d0a5",
+      "id": "artifact:file:connector/schemas/graph_node.schema.json:1582c817b6",
+      "path": "connector/schemas/graph_node.schema.json",
+      "source_record_id": "file:connector/schemas/graph_node.schema.json:1582c817b6",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "schema",
+      "content_hash": "467c5f50f34c3b4fc06012cb67f0b85ab65e0f00f97a9073a24c48bb6e64e00d",
+      "id": "artifact:file:connector/schemas/index_manifest.schema.json:0bee62c710",
+      "path": "connector/schemas/index_manifest.schema.json",
+      "source_record_id": "file:connector/schemas/index_manifest.schema.json:0bee62c710",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "schema",
+      "content_hash": "0a96b3165b3179f2ae27a753868f6f5f0210693bbb6bebad3fde52d9d407155c",
+      "id": "artifact:file:connector/schemas/materialize_receipt.schema.json:5aeacf8a1f",
+      "path": "connector/schemas/materialize_receipt.schema.json",
+      "source_record_id": "file:connector/schemas/materialize_receipt.schema.json:5aeacf8a1f",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "schema",
+      "content_hash": "8f4e6496a91d699cf86f0204f52b6d26779b2ff08414e7cfa8f38d96fa74be58",
+      "id": "artifact:file:connector/schemas/normalized_conversation.schema.json:dc266d26f7",
+      "path": "connector/schemas/normalized_conversation.schema.json",
+      "source_record_id": "file:connector/schemas/normalized_conversation.schema.json:dc266d26f7",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "schema",
+      "content_hash": "5c518d70b200936a154d9ee6301bf2573e530801a9450dbb8b55c3ad9b67b38a",
+      "id": "artifact:file:connector/schemas/normalized_message.schema.json:0b182f13f7",
+      "path": "connector/schemas/normalized_message.schema.json",
+      "source_record_id": "file:connector/schemas/normalized_message.schema.json:0b182f13f7",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "schema",
+      "content_hash": "6ba94885a3b46516b9c6bc16d270e4da23858fb6942bfbbc5c9a468b3e2f8e6b",
+      "id": "artifact:file:connector/schemas/normalized_post.schema.json:2b0ac6226c",
+      "path": "connector/schemas/normalized_post.schema.json",
+      "source_record_id": "file:connector/schemas/normalized_post.schema.json:2b0ac6226c",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "schema",
+      "content_hash": "ec7b519453d80b7ded1c22744de3b6309f7b73576a106a1c4da221e98fcbfc3e",
+      "id": "artifact:file:connector/schemas/normalized_topic.schema.json:9d8d8799e9",
+      "path": "connector/schemas/normalized_topic.schema.json",
+      "source_record_id": "file:connector/schemas/normalized_topic.schema.json:9d8d8799e9",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "schema",
+      "content_hash": "a4f16fa6a5e0be90e11fc2b626a447ddd15389342a4810ed9f029e98a19aa8ad",
+      "id": "artifact:file:connector/schemas/permission_state.schema.json:7d3c587cf2",
+      "path": "connector/schemas/permission_state.schema.json",
+      "source_record_id": "file:connector/schemas/permission_state.schema.json:7d3c587cf2",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "schema",
+      "content_hash": "73f9f639a2af847375f708a008999d65713e763aa2c2b7f9dc72070524a1194c",
+      "id": "artifact:file:connector/schemas/source_registry.schema.json:9001d76afe",
+      "path": "connector/schemas/source_registry.schema.json",
+      "source_record_id": "file:connector/schemas/source_registry.schema.json:9001d76afe",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "schema",
+      "content_hash": "b2150ad9716c2b32840aae585836a98a95e4870559e06494b1a739219692d057",
+      "id": "artifact:file:connector/schemas/source_sync_plan.schema.json:db5f279bdf",
+      "path": "connector/schemas/source_sync_plan.schema.json",
+      "source_record_id": "file:connector/schemas/source_sync_plan.schema.json:db5f279bdf",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "schema",
+      "content_hash": "c79c7b268057f7b54d46cac88f0535c3a569fd5aebc490c240c58a2d7c94aa4c",
+      "id": "artifact:file:connector/schemas/warning_report.schema.json:931d4eadc5",
+      "path": "connector/schemas/warning_report.schema.json",
+      "source_record_id": "file:connector/schemas/warning_report.schema.json:931d4eadc5",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "config",
+      "content_hash": "b05ebdbf1fbd67e2959c51b3b0642a41bb03773491224d9e36cf38300a119ca0",
+      "id": "artifact:file:connector/seeds/starter_conversations.yaml:b30b2cecc0",
+      "path": "connector/seeds/starter_conversations.yaml",
+      "source_record_id": "file:connector/seeds/starter_conversations.yaml:b30b2cecc0",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "8e38d0ea82183cce3ec6618dd9c4be564a6ff1a1651b24390f30d454416bfa02",
+      "id": "artifact:file:docs/agent_install_route.md:38c86ecaa7",
+      "path": "docs/AGENT_INSTALL_ROUTE.md",
+      "source_record_id": "file:docs/agent_install_route.md:38c86ecaa7",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "3c5c7648fe348ef580539ba03f689585240f8cd4e9cb3e71e529b3662bf83610",
+      "id": "artifact:file:docs/architecture.md:ff21b6b9a3",
+      "path": "docs/ARCHITECTURE.md",
+      "source_record_id": "file:docs/architecture.md:ff21b6b9a3",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "780bfb98a1ed744353067808756d52241b8483d83df3c9b061c3c5ab1fb8f1f1",
+      "id": "artifact:file:docs/connector_family_claim_contract.md:2fbbbc3cbc",
+      "path": "docs/CONNECTOR_FAMILY_CLAIM_CONTRACT.md",
+      "source_record_id": "file:docs/connector_family_claim_contract.md:2fbbbc3cbc",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "090fb1eb936b3881ade2aa81f65123c4a73b9b4d69e5094a220d13e8b15d3eff",
+      "id": "artifact:file:docs/graph_model.md:72ed1bbd50",
+      "path": "docs/GRAPH_MODEL.md",
+      "source_record_id": "file:docs/graph_model.md:72ed1bbd50",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "40e5e0cc3f319f76b0989f637281997910e8d18afc655d702f6c8dd03c78b0f6",
+      "id": "artifact:file:docs/install.md:93adeedb62",
+      "path": "docs/INSTALL.md",
+      "source_record_id": "file:docs/install.md:93adeedb62",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "37a19bdad1ecb6cc1d0fc772a5943cd028f90ec0d352d0978dba1e5d9d1e998e",
+      "id": "artifact:file:docs/mcp_rollout.md:7592ebe12e",
+      "path": "docs/MCP_ROLLOUT.md",
+      "source_record_id": "file:docs/mcp_rollout.md:7592ebe12e",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "028bad0d81f96ef19c4b14615a974e46da1c73b40437ca929610592f56cd1a00",
+      "id": "artifact:file:docs/query_model.md:dc059c6e17",
+      "path": "docs/QUERY_MODEL.md",
+      "source_record_id": "file:docs/query_model.md:dc059c6e17",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "ad1b2bf2df984320d4f93742a5cfabcb6d0361928d8332c3d6bbba0749c58362",
+      "id": "artifact:file:docs/runtime_contract.md:fa011f8c69",
+      "path": "docs/RUNTIME_CONTRACT.md",
+      "source_record_id": "file:docs/runtime_contract.md:fa011f8c69",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "06dbaf27959d461fadeee799f64b6355e4188089a2fba80c3544ab743d919850",
+      "id": "artifact:file:docs/starter_proof.md:a06d166b7c",
+      "path": "docs/STARTER_PROOF.md",
+      "source_record_id": "file:docs/starter_proof.md:a06d166b7c",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "bf21a5535968725d4d26e03d7b2c501f7be7ea22a1523b54d2c3609a63bd628b",
+      "id": "artifact:file:docs/decisions/aoa-telegram-d-0001-permissioned-conversation-proof.md:9c39e7f7c3",
+      "path": "docs/decisions/AOA-TELEGRAM-D-0001-permissioned-conversation-proof.md",
+      "source_record_id": "file:docs/decisions/aoa-telegram-d-0001-permissioned-conversation-proof.md:9c39e7f7c3",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "01dfcb6534f6f34b31212812f5ad1af4c2e05de337e4ba80fd6371ca4875aa82",
+      "id": "artifact:file:docs/decisions/readme.md:e5ec0e7030",
+      "path": "docs/decisions/README.md",
+      "source_record_id": "file:docs/decisions/readme.md:e5ec0e7030",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "b2451b65d9ab6ca8313fd17903b32cbb3d9eb170f97e576904f16fc4d3a1fab9",
+      "id": "artifact:file:evals/agents.md:97b1e9d3cd",
+      "path": "evals/AGENTS.md",
+      "source_record_id": "file:evals/agents.md:97b1e9d3cd",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "config",
+      "content_hash": "3671eabd2a46444c824ec0aaa17b793af305ee509ef72332371eb57884b91965",
+      "id": "artifact:file:evals/port.yaml:b027c5aa6b",
+      "path": "evals/PORT.yaml",
+      "source_record_id": "file:evals/port.yaml:b027c5aa6b",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "f27662a49bf58cf5fcbe84597502313cd335ca770bae80db998624068b533d09",
+      "id": "artifact:file:evals/readme.md:a1a9eeb43d",
+      "path": "evals/README.md",
+      "source_record_id": "file:evals/readme.md:a1a9eeb43d",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "f9540523b031e203c04577189b865fad0af154f166033b14d37ecd61788c5f15",
+      "id": "artifact:file:evals/intake/readme.md:d27b56ff43",
+      "path": "evals/intake/README.md",
+      "source_record_id": "file:evals/intake/readme.md:d27b56ff43",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "5d3b50090faa9e0031562b16769af6199800649bfe92dd376f815d2c7517f9cf",
+      "id": "artifact:file:evals/reports/readme.md:ac5e016ca2",
+      "path": "evals/reports/README.md",
+      "source_record_id": "file:evals/reports/readme.md:ac5e016ca2",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "37a733e426551bd5559cdf3cb8d2e84de600794c9d65a2526d30624b6a928852",
+      "id": "artifact:file:evals/suites/readme.md:8611332c6f",
+      "path": "evals/suites/README.md",
+      "source_record_id": "file:evals/suites/readme.md:8611332c6f",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "6f83456ca87a9dd536110d83184355f0b8c4aaa1000813600b3a412159714a59",
+      "id": "artifact:file:evals/suites/connector-family-claim-runtime.suite.md:b972eb11b6",
+      "path": "evals/suites/connector-family-claim-runtime.suite.md",
+      "source_record_id": "file:evals/suites/connector-family-claim-runtime.suite.md:b972eb11b6",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "config",
+      "content_hash": "256a63cef9faa543c1879f85c49c203cb0efd8f3a472a67e0ad247b828860600",
+      "id": "artifact:file:evals/suites/starter_claim_answer_packets.json:0406674f03",
+      "path": "evals/suites/starter_claim_answer_packets.json",
+      "source_record_id": "file:evals/suites/starter_claim_answer_packets.json:0406674f03",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "config",
+      "content_hash": "bf9755068911e2e02726698ab81f35905ac56b2a6601bb9e7003772713eb10cb",
+      "id": "artifact:file:evals/suites/starter_claim_conflict_relations.json:3880ed3d49",
+      "path": "evals/suites/starter_claim_conflict_relations.json",
+      "source_record_id": "file:evals/suites/starter_claim_conflict_relations.json:3880ed3d49",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "300ef5b4f5493c1f09ada957e3a9053b560cd20851e9cc5619979ba6c0ed0c71",
+      "id": "artifact:file:kag/agents.md:f80d68b85b",
+      "path": "kag/AGENTS.md",
+      "source_record_id": "file:kag/agents.md:f80d68b85b",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "document",
+      "content_hash": "0946966582fa19ffa0a919dc38c26cacbf618d0c02c9c4c2a0808707d472f287",
+      "id": "artifact:file:kag/readme.md:213631cc86",
+      "path": "kag/README.md",
+      "source_record_id": "file:kag/readme.md:213631cc86",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "config",
+      "content_hash": "5ad83e91c6cd60914e9b258bbd7153686cf26c37467fa7ce1f74f2c7f72caa4d",
+      "id": "artifact:file:kag/edges/source_routes_to_storage_boundary.json:8c12cb4c11",
+      "path": "kag/edges/source_routes_to_storage_boundary.json",
+      "source_record_id": "file:kag/edges/source_routes_to_storage_boundary.json:8c12cb4c11",
+      "surface_state": "generated_readmodel"
+    },
+    {
+      "artifact_kind": "index",
+      "content_hash": "2d183674665896bb07cb4b14ac03f4f58b70f25ac25b28baa44b23dd5a6f0eba",
+      "id": "artifact:file:kag/indexes/source_inventory.json:1416e51205",
+      "path": "kag/indexes/source_inventory.json",
+      "source_record_id": "file:kag/indexes/source_inventory.json:1416e51205",
+      "surface_state": "generated_readmodel"
+    },
+    {
+      "artifact_kind": "config",
+      "content_hash": "6694b143265662035cbd29011bf9c11dfd7c52f278a01693a718c9a84e09b5d9",
+      "id": "artifact:file:kag/manifest.json:0d25d90d08",
+      "path": "kag/manifest.json",
+      "source_record_id": "file:kag/manifest.json:0d25d90d08",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "config",
+      "content_hash": "71c0a4a46a5261a624d120b9f23a9ba122766527983e88cd8c4deed0ac1563ea",
+      "id": "artifact:file:kag/nodes/source_home.json:a87a1f114c",
+      "path": "kag/nodes/source_home.json",
+      "source_record_id": "file:kag/nodes/source_home.json:a87a1f114c",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "config",
+      "content_hash": "fc13c6bea7dc06d266232dc04209e3cae4766de7d9611a7ffb5df0da3813ef5c",
+      "id": "artifact:file:kag/nodes/storage_boundary.json:45dfb2e4b0",
+      "path": "kag/nodes/storage_boundary.json",
+      "source_record_id": "file:kag/nodes/storage_boundary.json:45dfb2e4b0",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "projection",
+      "content_hash": "ae2b75d352dd94506791b5de2502fee5439015060384e5c9a33b3d754181c0a1",
+      "id": "artifact:file:kag/projections/source_return.json:1a2a306538",
+      "path": "kag/projections/source_return.json",
+      "source_record_id": "file:kag/projections/source_return.json:1a2a306538",
+      "surface_state": "generated_readmodel"
+    },
+    {
+      "artifact_kind": "receipt",
+      "content_hash": "58aa1d14b42aa78e964e7ea4f5c9b67d0184062359f880635cfbf6e1fa6ba41e",
+      "id": "artifact:file:kag/receipts/validation_receipt.json:8e616be0cd",
+      "path": "kag/receipts/validation_receipt.json",
+      "source_record_id": "file:kag/receipts/validation_receipt.json:8e616be0cd",
+      "surface_state": "receipt"
+    },
+    {
+      "artifact_kind": "manifest",
+      "content_hash": "e7178fa139ca7810395f91dff6e2ae9f2564255452ba71d366b2371ee1162100",
+      "id": "artifact:file:pyproject.toml:50c86b7ed8",
+      "path": "pyproject.toml",
+      "source_record_id": "file:pyproject.toml:50c86b7ed8",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "validator",
+      "content_hash": "19126537f5e08551af25cc5d22c9d05515a388b0c84ca8375e9115ed90c05ca2",
+      "id": "artifact:file:scripts/validate_connector.py:de39a47221",
+      "path": "scripts/validate_connector.py",
+      "source_record_id": "file:scripts/validate_connector.py:de39a47221",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "source_code",
+      "content_hash": "0d8418d02fe5333c4f4ea12fdf3dcce44fbbfba858de5111504b78c67df4dbcb",
+      "id": "artifact:file:src/aoa_telegram_connector/__init__.py:e17872767e",
+      "path": "src/aoa_telegram_connector/__init__.py",
+      "source_record_id": "file:src/aoa_telegram_connector/__init__.py:e17872767e",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "source_code",
+      "content_hash": "db44b0b6f855aa8e19c626989ff8fcbb930bd71598c30a910db0a986eeb4f2a5",
+      "id": "artifact:file:src/aoa_telegram_connector/answer/__init__.py:d82794e229",
+      "path": "src/aoa_telegram_connector/answer/__init__.py",
+      "source_record_id": "file:src/aoa_telegram_connector/answer/__init__.py:d82794e229",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "source_code",
+      "content_hash": "4ad8ec61b16b6ae6e1ba903d7c9684c8131f961a4c18c805c7783e4ce4851056",
+      "id": "artifact:file:src/aoa_telegram_connector/claims/__init__.py:411219e638",
+      "path": "src/aoa_telegram_connector/claims/__init__.py",
+      "source_record_id": "file:src/aoa_telegram_connector/claims/__init__.py:411219e638",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "source_code",
+      "content_hash": "214405ede5a8b4442f25543795438c38323889c2b9073b619bafb4d18fa640ca",
+      "id": "artifact:file:src/aoa_telegram_connector/cli.py:83c77dfc31",
+      "path": "src/aoa_telegram_connector/cli.py",
+      "source_record_id": "file:src/aoa_telegram_connector/cli.py:83c77dfc31",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "source_code",
+      "content_hash": "8adce3be37b3c682a4e4387bd4caa06d7ce031f3394300c9eadd9d5e416fc4e5",
+      "id": "artifact:file:src/aoa_telegram_connector/config.py:5746c3da5a",
+      "path": "src/aoa_telegram_connector/config.py",
+      "source_record_id": "file:src/aoa_telegram_connector/config.py:5746c3da5a",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "source_code",
+      "content_hash": "d1c42878a226260b419ef5bb97cbb81f71c2cf12acefdbbfa5fe9abc86d1664a",
+      "id": "artifact:file:src/aoa_telegram_connector/evaluation/__init__.py:de2e52771b",
+      "path": "src/aoa_telegram_connector/evaluation/__init__.py",
+      "source_record_id": "file:src/aoa_telegram_connector/evaluation/__init__.py:de2e52771b",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "source_code",
+      "content_hash": "95608b2f6d32fb53ecbce888641ee2e0d2f5c7211c38a040aa8b37a7bcae5c2b",
+      "id": "artifact:file:src/aoa_telegram_connector/graph/__init__.py:5fecbbf7d6",
+      "path": "src/aoa_telegram_connector/graph/__init__.py",
+      "source_record_id": "file:src/aoa_telegram_connector/graph/__init__.py:5fecbbf7d6",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "source_code",
+      "content_hash": "c16b0a94075cd3643774df90f4a6839069f9a39ef7660af66c6a032237236d3c",
+      "id": "artifact:file:src/aoa_telegram_connector/index/__init__.py:7a31a13d48",
+      "path": "src/aoa_telegram_connector/index/__init__.py",
+      "source_record_id": "file:src/aoa_telegram_connector/index/__init__.py:7a31a13d48",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "source_code",
+      "content_hash": "e66b96d3f2fa4c16f39c28e1b78e17780f526d0784157d849fbc16f53ae9ce22",
+      "id": "artifact:file:src/aoa_telegram_connector/normalize/__init__.py:398ccdd713",
+      "path": "src/aoa_telegram_connector/normalize/__init__.py",
+      "source_record_id": "file:src/aoa_telegram_connector/normalize/__init__.py:398ccdd713",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "source_code",
+      "content_hash": "8c7d4b77278573dfcce2737af24b64d04be0abb1b6797fb4bbeb07baf98f69e8",
+      "id": "artifact:file:src/aoa_telegram_connector/parse/__init__.py:2966040ed6",
+      "path": "src/aoa_telegram_connector/parse/__init__.py",
+      "source_record_id": "file:src/aoa_telegram_connector/parse/__init__.py:2966040ed6",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "source_code",
+      "content_hash": "334b1a0b854a00cce4906a678efda235d142e1162594aa49636665f4ea2ef3a7",
+      "id": "artifact:file:src/aoa_telegram_connector/parse/mtproto_history.py:9368a051a7",
+      "path": "src/aoa_telegram_connector/parse/mtproto_history.py",
+      "source_record_id": "file:src/aoa_telegram_connector/parse/mtproto_history.py:9368a051a7",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "source_code",
+      "content_hash": "c093f870759c275a7dbe7323499bd4439fe7aa96e6ef6539b76091170bff3eb0",
+      "id": "artifact:file:src/aoa_telegram_connector/parse/telegram_desktop_export.py:b3d16643c5",
+      "path": "src/aoa_telegram_connector/parse/telegram_desktop_export.py",
+      "source_record_id": "file:src/aoa_telegram_connector/parse/telegram_desktop_export.py:b3d16643c5",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "source_code",
+      "content_hash": "b926d778dee27ccdde68c81f81cb4a5029e7c0ee12f2f4b54596cda372c557f1",
+      "id": "artifact:file:src/aoa_telegram_connector/policy/__init__.py:8ea034ace7",
+      "path": "src/aoa_telegram_connector/policy/__init__.py",
+      "source_record_id": "file:src/aoa_telegram_connector/policy/__init__.py:8ea034ace7",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "source_code",
+      "content_hash": "83194f44bdd6a4cf612d3ca786f18af348413ed523b0b1ded1a2b227fd6478e4",
+      "id": "artifact:file:src/aoa_telegram_connector/policy/rules.py:98fa3cb55c",
+      "path": "src/aoa_telegram_connector/policy/rules.py",
+      "source_record_id": "file:src/aoa_telegram_connector/policy/rules.py:98fa3cb55c",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "source_code",
+      "content_hash": "900ab82a8c3bbd33aee90910f8f7d4082c424c622019a7b0788b89fb0d1ec5e1",
+      "id": "artifact:file:src/aoa_telegram_connector/query/__init__.py:ec440d322d",
+      "path": "src/aoa_telegram_connector/query/__init__.py",
+      "source_record_id": "file:src/aoa_telegram_connector/query/__init__.py:ec440d322d",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "source_code",
+      "content_hash": "905161ce313ea2d6417213ef9f4b0e60a29056b1424da95deba6d64d7a420aa7",
+      "id": "artifact:file:src/aoa_telegram_connector/sources/__init__.py:e570107b88",
+      "path": "src/aoa_telegram_connector/sources/__init__.py",
+      "source_record_id": "file:src/aoa_telegram_connector/sources/__init__.py:e570107b88",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "source_code",
+      "content_hash": "36f1694263644f444d025cee30bb49ef566f77434a4d470007e4d7b5eec490f2",
+      "id": "artifact:file:src/aoa_telegram_connector/storage/__init__.py:fd6cdfb416",
+      "path": "src/aoa_telegram_connector/storage/__init__.py",
+      "source_record_id": "file:src/aoa_telegram_connector/storage/__init__.py:fd6cdfb416",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "test",
+      "content_hash": "d42fe2a912dba8bc6169d18baab315369866c24984494d84a6f1cd818220dcaa",
+      "id": "artifact:file:tests/contract/test_validator.py:d2f4ffcf08",
+      "path": "tests/contract/test_validator.py",
+      "source_record_id": "file:tests/contract/test_validator.py:d2f4ffcf08",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "test",
+      "content_hash": "440a75951f03a0cfdc964dba00257a85e79faa0b7a5cc1b8a194512cff10a48c",
+      "id": "artifact:file:tests/integration/test_cli_eval.py:72e7f3ce47",
+      "path": "tests/integration/test_cli_eval.py",
+      "source_record_id": "file:tests/integration/test_cli_eval.py:72e7f3ce47",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "test",
+      "content_hash": "4aa24e342db9484e3b8110050d9a2cdb54f5cccf40d3659b0a12dc31a574a197",
+      "id": "artifact:file:tests/unit/test_graph_answer.py:7bd472ece7",
+      "path": "tests/unit/test_graph_answer.py",
+      "source_record_id": "file:tests/unit/test_graph_answer.py:7bd472ece7",
+      "surface_state": "authored_source"
+    },
+    {
+      "artifact_kind": "test",
+      "content_hash": "9a59a3d496c3c4659952113c9fe9562dadd7b2b0ad67e203a9dcb3c0bd989ff6",
+      "id": "artifact:file:tests/unit/test_parse_normalize_policy.py:4f69da0d97",
+      "path": "tests/unit/test_parse_normalize_policy.py",
+      "source_record_id": "file:tests/unit/test_parse_normalize_policy.py:4f69da0d97",
+      "surface_state": "authored_source"
+    }
+  ],
+  "index_identity": {
+    "artifact_kind": "repository_artifact_index",
+    "content_digest": "aab0173d23640de0a008ee41f87690be56e418ebbdd7a504049a6f44808d4700",
+    "index_kind": "artifact",
+    "local_id": "index:repo-local:artifacts",
+    "schema_ref": "aoa-kag:schemas/repo-local-kag-repository-index.schema.json"
+  },
+  "registry_output": {
+    "consumer": "aoa-kag-mcp",
+    "resource_shape": "repo-local-artifact-index",
+    "stable_fields": [
+      "id",
+      "artifact_kind",
+      "source_record_id",
+      "path",
+      "content_hash"
+    ]
+  },
+  "repo": {
+    "git_ref": "git-index-source-tree",
+    "name": "aoa-telegram-connector",
+    "owner_type": "connector",
+    "root": "."
+  },
+  "schema_version": "aoa-repo-local-kag-repository-index-v1",
+  "source_index": {
+    "content_digest": "e20d40bc9e15148a2b7bd2f90186bd7d852a55064df2d2a5bb638c91b9c6134c",
+    "local_id": "index:repo-local:source-surfaces",
+    "path": "kag/indexes/source_surface_index.json"
+  },
+  "summary": {
+    "entry_count": 96,
+    "kind_counts": {
+      "config": 13,
+      "directory_marker": 3,
+      "document": 30,
+      "index": 1,
+      "manifest": 4,
+      "owner_metadata": 1,
+      "projection": 1,
+      "receipt": 1,
+      "schema": 20,
+      "source_code": 17,
+      "test": 4,
+      "validator": 1
+    }
+  }
+}
