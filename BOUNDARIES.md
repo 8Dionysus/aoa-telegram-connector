@@ -8,3 +8,9 @@ storage roots and out of Git.
 
 `insufficient_permission` is a successful boundary result when the requested
 chat, group, DM, or history is outside the configured scope.
+
+The root `stats/` port may derive privacy-bounded measurements from public
+synthetic fixtures and connector outputs. It does not own Telegram
+authorization, permission policy, private content, eval verdicts, connector
+readiness, or runtime truth; shared measurement grammar remains with
+`aoa-stats`.

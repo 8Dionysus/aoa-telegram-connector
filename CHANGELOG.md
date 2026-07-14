@@ -2,6 +2,16 @@
 
 ## Unreleased
 
+- Added a root owner-local stats port for the authorized normalized share of
+  the public synthetic starter message population under paired Bot API and
+  TDLib permission postures.
+- Added two reference packets preserving the observed `2 / 3` Bot API and
+  `3 / 3` TDLib ratios without copying message text or identities.
+- Added manual-trial-derived regression coverage for observed gaps, observed
+  zero, and malformed, contradictory, duplicate, unexpected, or unpaired
+  `unknown` cases.
+- Routed operational commands to executable owners and applicable
+  `AGENTS.md` cards instead of ordinary Markdown command blocks.
 - Added operator-local Telegram source registry commands for public, paid,
   private, and Saved Messages sources.
 - Added source sync planning and multi-source MTProto sync receipts with media

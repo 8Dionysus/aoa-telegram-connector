@@ -49,6 +49,15 @@ The current sync implementation indexes text and attachment metadata only.
 `include_media=none` is the live default and the only implemented sync policy;
 future media policies must keep downloads explicit and receipt-backed.
 
+## Statistical port
+
+`stats/` derives a reference-only ratio from the public synthetic fixture and
+normalizer for each of the paired `bot_api` and `tdlib_user_session` modes. The
+fixture owns the fixed three-message population, normalization owns legitimate
+mode visibility and permission-state behavior, and the packets retain only
+counts, mode, and portable provenance. The port does not consume or reproduce
+the permission eval verdict.
+
 ## Graph
 
 Starter edges include:
