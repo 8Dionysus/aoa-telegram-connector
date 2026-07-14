@@ -1,0 +1,122 @@
+{
+  "schema_version": "aoa_stats_local_port_v1",
+  "contract_version": "1.0.0",
+  "owner_repo": "aoa-telegram-connector",
+  "status": "active",
+  "owner_boundary_ref": "BOUNDARIES.md",
+  "central_contract_refs": [
+    "aoa-stats:stats/measurement-contract/measurement-contract.schema.json",
+    "aoa-stats:stats/measurement-contract/measurement-packet.schema.json"
+  ],
+  "evidence_posture": {
+    "live_state": "reference_only",
+    "privacy": "public",
+    "raw_content_allowed": false
+  },
+  "questions": [
+    {
+      "id": "question:starter-message-authorized-observability-ratio",
+      "question": "Under each paired permission posture in the canonical public synthetic starter fixture, what fraction of the same declared message population is materialized as authorized normalized evidence?",
+      "consumer_refs": [
+        "stats/README.md",
+        "docs/STARTER_PROOF.md",
+        "docs/ARCHITECTURE.md"
+      ]
+    }
+  ],
+  "measurements": [
+    {
+      "schema_version": "aoa_stats_measurement_contract_v1",
+      "measurement_id": "aoa-telegram-connector/starter-message-authorized-observability-ratio",
+      "contract_version": "1.0.0",
+      "owner_repo": "aoa-telegram-connector",
+      "question_ref": "question:starter-message-authorized-observability-ratio",
+      "semantic_class": "statistic",
+      "statistic": "ratio",
+      "object_kind": "fixture-message",
+      "unit": {
+        "symbol": "1",
+        "quantity": "proportion"
+      },
+      "population": {
+        "subject": "messages in the canonical public synthetic starter fixture declared visible in at least one paired Bot API or TDLib mode",
+        "definition": "one unique conversation_id and message_id pair with non-empty fixture text whose visible_in_modes includes bot_api or tdlib_user_session and agrees with its conversation permission envelope",
+        "inclusion_rule": "every valid unique message in the complete non-empty paired-mode population of the canonical public synthetic starter fixture",
+        "exclusion_rule": "messages outside the paired starter modes, message bodies, conversation and message identities, authors, chat or source refs, attachments, entities, operator-local registries and receipts, live or private Telegram data, index and graph artifacts, eval outcomes, readiness, proof, and runtime state",
+        "sampling": "census"
+      },
+      "window": {
+        "temporality": "instant",
+        "clock": "owner_defined"
+      },
+      "dimensions": {
+        "allowed": [
+          {
+            "name": "source_mode",
+            "max_cardinality": 2,
+            "sensitivity": "public"
+          }
+        ],
+        "prohibited": [
+          "conversation_id",
+          "message_id",
+          "author_id",
+          "user_id",
+          "chat_id",
+          "source_ref",
+          "run_id"
+        ]
+      },
+      "aggregation": {
+        "operator": "none",
+        "across": []
+      },
+      "missingness": {
+        "states": [
+          "missing",
+          "unknown",
+          "stale"
+        ],
+        "zero_is_observation": true
+      },
+      "uncertainty": {
+        "required": false,
+        "methods": [
+          "not_applicable"
+        ]
+      },
+      "provenance": {
+        "evidence_refs_required": true,
+        "source_revision_required": true
+      },
+      "lifecycle": {
+        "status": "active",
+        "compatible_with": []
+      },
+      "privacy": {
+        "classification": "public",
+        "raw_content_allowed": false,
+        "sensitive_dimensions_allowed": false
+      },
+      "live_state": {
+        "capability": "reference_only"
+      },
+      "authority_ceiling": "Reports only the ratio of authorized normalized messages from the same public synthetic starter population under paired bot_api and tdlib_user_session modes at one source revision; it does not establish real bot or connected-account authorization, live channel, group, private-chat, or Saved Messages coverage, source completeness, index or graph quality, retrieval or answer quality, connector readiness, eval success, proof verdicts, or runtime health."
+    }
+  ],
+  "exports": [
+    {
+      "measurement_id": "aoa-telegram-connector/starter-message-authorized-observability-ratio",
+      "posture": "reference",
+      "packet_refs": [
+        "stats/packets/starter-message-authorized-observability-ratio.bot-api.reference.json",
+        "stats/packets/starter-message-authorized-observability-ratio.tdlib-user-session.reference.json"
+      ],
+      "evidence_refs": [
+        "connector/fixtures/telegram/starter_conversation.json",
+        "src/aoa_telegram_connector/normalize/__init__.py",
+        "connector/SOURCE_POLICY.md"
+      ]
+    }
+  ]
+}

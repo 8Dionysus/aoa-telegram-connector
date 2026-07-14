@@ -5,3 +5,6 @@ conversation snapshots into local evidence, search, graph, and answer packets.
 
 The first proof is intentionally synthetic and no-network. Future live work must
 start from explicit allowlists, receipts, and external storage roots.
+
+Owner-local statistics may describe bounded behavior of that proof without
+becoming permission, eval, source, or runtime authority.

@@ -1,0 +1,80 @@
+{
+  "schema_version": "aoa_stats_measurement_packet_v1",
+  "contract_ref": "stats/port.manifest.json#/measurements/0",
+  "contract_version": "1.0.0",
+  "measurement_id": "aoa-telegram-connector/starter-message-authorized-observability-ratio",
+  "writer_repo": "aoa-telegram-connector",
+  "observation_id": "aoa-telegram-connector:starter-message-authorized-observability-ratio:bot_api:1ebf5f9074ca014d",
+  "observed_at": "2026-07-14T14:00:31Z",
+  "object_ref": {
+    "kind": "fixture-message",
+    "id": "starter-permissioned-message-population:1ebf5f9074ca014d",
+    "version": "1ebf5f9074ca014db83ac219ef28c17cbc05c343"
+  },
+  "population": {
+    "id": "starter-permissioned-message-population:1ebf5f9074ca014d",
+    "definition_ref": "stats/port.manifest.json#/measurements/0/population",
+    "size": 3
+  },
+  "sample": {
+    "size": 3,
+    "selection": "census of unique non-empty-text messages declared visible in at least one paired Bot API or TDLib mode in the canonical public synthetic starter fixture"
+  },
+  "cohort": null,
+  "window": {
+    "id": "source-revision:1ebf5f9074ca014db83ac219ef28c17cbc05c343",
+    "start": "2026-07-14T14:00:31Z",
+    "end": "2026-07-14T14:00:31Z",
+    "temporality": "instant"
+  },
+  "dimensions": {
+    "source_mode": "bot_api"
+  },
+  "value": {
+    "status": "observed",
+    "kind": "ratio",
+    "unit": "1",
+    "number": 0.6666666666666666,
+    "numerator": 2,
+    "denominator": 3
+  },
+  "uncertainty": {
+    "status": "not_applicable",
+    "sample_size": 3,
+    "method": "not_applicable",
+    "reason": "The reference observation is a census of the complete paired-mode message population in the canonical public synthetic starter fixture."
+  },
+  "provenance": {
+    "evidence_refs": [
+      {
+        "kind": "public-synthetic-starter-fixture",
+        "ref": "connector/fixtures/telegram/starter_conversation.json"
+      },
+      {
+        "kind": "normalization-owner",
+        "ref": "src/aoa_telegram_connector/normalize/__init__.py"
+      },
+      {
+        "kind": "permission-policy",
+        "ref": "connector/SOURCE_POLICY.md"
+      }
+    ],
+    "derivation_ref": "stats/README.md#current-reference-measurement",
+    "source_revision": "1ebf5f9074ca014db83ac219ef28c17cbc05c343"
+  },
+  "reporting_rule": {
+    "id": "aoa-telegram-connector/starter-message-authorized-observability-ratio/reference-census-by-source-mode",
+    "version": "1.0.0"
+  },
+  "posture": {
+    "freshness": "current",
+    "live_state": "reference",
+    "privacy": "public",
+    "raw_content_included": false
+  },
+  "progress": {
+    "state": "terminal",
+    "completed": 3,
+    "total": 3
+  }
+}

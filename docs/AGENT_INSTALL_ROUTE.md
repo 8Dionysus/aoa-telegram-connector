@@ -1,17 +1,16 @@
 # Agent Install Route
 
 1. Read `AGENTS.md`, `BOUNDARIES.md`, and `connector/SOURCE_POLICY.md`.
-2. Run `python scripts/validate_connector.py`.
-3. Run `PYTHONPATH=src python -m pytest -q`.
-4. Run the no-network starter proof.
-5. Configure external roots before real Telegram data.
-6. For the first real pilot, prefer `materialize telegram-desktop-export`
-   against an operator-selected Telegram Desktop `result.json`.
-7. For the API pilot, use `materialize mtproto-history` with
-   `TELEGRAM_API_ID` and `TELEGRAM_API_HASH` supplied by local vault/env state.
-8. For the owned-source base, use `sources add`, `sources plan-sync`, and
-   `sources sync` to ingest explicit channels, groups, paid_member sources,
-   private chats, and Saved Messages visible to the connected account.
-9. Never place Telegram tokens, TDLib sessions, MTProto sessions, API hashes,
+2. Follow the bounded operator route in `AGENTS.md`; the validator, tests, CLI
+   parser, and CI workflow remain the executable owners.
+3. Confirm the no-network starter proof before considering connected data.
+4. Configure external roots before real Telegram data.
+5. Prefer the Telegram Desktop export adapter for the first no-secret real
+   pilot and keep its result under operator-selected storage.
+6. Supply API credentials only from local vault or environment state for the
+   connected-account pilot.
+7. Build an owned-source base only from explicit public, paid-member, private,
+   and Saved Messages sources visible to the connected account.
+8. Never place Telegram tokens, TDLib sessions, MTProto sessions, API hashes,
    takeout exports, or private
    messages in Git.
